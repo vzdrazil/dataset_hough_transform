@@ -1,0 +1,48 @@
+{
+  "dataset_name": "Synthetic Binary Lines for Hough Transform CPU/GPU Benchmark",
+  "generator_seed": 20261013,
+  "resolutions": [
+    {
+      "label": "256x256",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "label": "512x512",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "label": "1024x1024",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "label": "FHD",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "label": "QHD",
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "label": "4K",
+      "width": 3840,
+      "height": 2160
+    }
+  ],
+  "line_counts": [
+    10,
+    50,
+    100,
+    500
+  ],
+  "replicates_per_combination": 3,
+  "image_format": "PNG grayscale 8-bit (L); pixel values exactly 0 or 255",
+  "line_width_pixels": 1,
+  "background": 0,
+  "foreground": 255,
+  "generation": "Random endpoints on image perimeter; deterministic per image seed."
+}
